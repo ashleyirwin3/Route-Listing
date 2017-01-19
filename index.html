@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <title>Route Listing</title>
+  <meta charset="UTF-8">
+  <title>Route Routing</title>
 </head>
-<body ng-app='highwayApp2'>
+<body ng-app="highwayApp2">
+ <nav>
+   <ul>
+     <li><a href="#">Home View</a></li>
+     <li><a href="#/66">Route 66</a></li>
+     <li><a href="#/blue">Blue Ridge Parkway</a></li>
+   </ul>
+ </nav>
 
-<div ng-view></div>
+  <div ng-view></div>
 
-<script src="/bower_components/angular/angular.js"></script>
-<script src="/bower_components/angular-route/angular-route.js"></script>
-<script src="app.js"></script>
+  <script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-route/angular-route.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
